@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>QA – Math Reboot 14 | Races, Circular Tracks & Classic Chasing</title>
+<title>QA - Math Reboot 14 | Races, Circular Tracks & Classic Chasing</title>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -276,9 +276,9 @@ const GF={
 const L=['A','B','C','D'];
 
 // data: optional highlighted data block above question
-// mcq:true → options array + answer index; mcq:false → numeric TITA
+// mcq:true -> options array + answer index; mcq:false -> numeric TITA
 const Q=[
-// §1 RACES (Q1-Q10)
+// S1 RACES (Q1-Q10)
 {id:1,sec:1,mcq:false,
  text:'In a <strong>200 m</strong> race, A beats B by <strong>20 m</strong> and B beats C by <strong>20 m</strong>. By how many metres does <strong>A beat C</strong>?',
  answer:'38',tol:0},
@@ -323,7 +323,7 @@ const Q=[
  text:'What <strong>head start</strong> (in metres) was given to B?',
  answer:'320',tol:0},
 
-// §2 CIRCULAR TRACKS (Q11-Q16)
+// S2 CIRCULAR TRACKS (Q11-Q16)
 {id:11,sec:2,mcq:false,
  data:'Circular track: <strong>1500 m</strong>. A and B start from the same point in the <strong>same direction</strong>. Speeds: A = <strong>25 m/s</strong>, B = <strong>17.5 m/s</strong>.',
  text:'After how many <strong>seconds</strong> will they meet for the <strong>first time</strong>?',
@@ -353,7 +353,7 @@ const Q=[
  text:'After how many <strong>seconds</strong> from the start will all three be at the <strong>starting point</strong>?',
  answer:'1500',tol:0},
 
-// §3 DOG & BIRD PROBLEMS (Q17-Q22)
+// S3 DOG & BIRD PROBLEMS (Q17-Q22)
 {id:17,sec:3,mcq:false,
  data:'A policeman and dog chase a thief who has a <strong>12-minute head start</strong>. Thief: <strong>10 km/h</strong>, Policeman: <strong>15 km/h</strong>, Dog: <strong>25 km/h</strong>. The dog runs back and forth between policeman and thief until the policeman catches the thief.',
  text:'What is the <strong>total distance</strong> travelled by the dog (in km)?',
@@ -384,7 +384,7 @@ const Q=[
  text:'Find the ratio of distance travelled <strong>towards Train B</strong> to that <strong>towards Train A</strong>.',
  options:['13 : 18','13 : 17','21 : 11','22 : 11'],answer:2},
 
-// §4 TUNNEL & CAT (Q23-Q25)
+// S4 TUNNEL & CAT (Q23-Q25)
 {id:23,sec:4,mcq:true,
  data:'A cat is inside a tunnel at a distance <strong>8/19th</strong> of the tunnel length from the entrance. A train approaches. If the cat runs <strong>towards the entrance</strong>, it just escapes. If it runs <strong>towards the exit</strong>, it also just escapes.',
  text:'What is the ratio of the <strong>speed of the train to the speed of the cat</strong>?',
